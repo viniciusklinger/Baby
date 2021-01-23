@@ -1,0 +1,286 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Amstagram';
+    src: url("../_fonts/Amstagram.ttf");
+}
+@font-face {
+    font-family: 'ShadowsIntoLight-Regular';
+    src: url("../_fonts/ShadowsIntoLight-Regular.ttf");
+}
+@font-face {
+    font-family: 'JosefinSlab';
+    src: url("../_fonts/JosefinSlab/JosefinSlab-Regular.ttf");
+}
+
+div#interface {
+    width: 1500px;
+
+    margin: 250px auto 0 auto;
+    padding: 3px 3px 3px 3px;
+}
+div#interfacerecados {
+    width: 1500px;
+
+    margin: 250px auto 0 auto;
+    padding: 3px 3px 3px 3px;
+}
+/* ===================================================================== fundo branco*/
+header p {
+    width: 1500px;
+    position: absolute;
+    background-color: white;
+    text-align: center;
+    margin: -250px auto 0 auto;
+    font-family: JosefinSlab, sans-serif;
+    font-size: 14pt;
+    padding: 2px 0 2px 0;
+}
+header h1{
+    font-family: Amstagram, sans-serif;
+    font-size: 90pt;
+    position: absolute;
+    margin: -210px auto 0 auto;
+    text-align: center;
+    width: 1500px;
+    display: block;
+    font-weight: lighter;
+    color: #383838
+
+}
+header h2{
+    font-family: ShadowsIntoLight-Regular, sans-serif;
+    font-size: 32pt;
+    position: absolute;
+    margin: -220px 0 0 1px;
+    font-weight: lighter;
+    color: #383838
+
+}
+header h3{
+    font-family: ShadowsIntoLight-Regular, sans-serif;
+    font-size: 32pt;
+    position: absolute;
+    margin: -75px 0 0 -250px;
+    text-align: right;
+    width: 1500px;
+    font-weight: lighter;
+    color: #383838
+}
+nav#menu{
+    display: block;
+}
+nav#menu ul {
+    list-style: none;
+    text-transform: none;
+    position: absolute;
+    margin: -45px 0 0 -40px;
+}
+nav#menu li {
+    display: inline-block;
+    padding: 0 23px 0 0;
+    font-family: ShadowsIntoLight-Regular, sans-serif;
+}
+nav#menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 25pt;
+}
+nav#menu a:hover {
+    color: white;
+}
+nav#menu h3 {
+    display: none;
+}
+/* ===================================================================== cabeçalho*/
+body{
+    background-image: url("../_media/teste.gif");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+img {
+    box-shadow: 0 0 10px rgba(0,0,0,.5)
+}
+article p{
+    font-family: ShadowsIntoLight-Regular, sans-serif;
+    font-size: 26pt;
+    text-align: justify;
+    padding: 8px;
+    text-indent: 50px;
+}
+article h2{
+    font-family: ShadowsIntoLight-Regular, sans-serif;
+    text-align: center;
+    font-size: 30pt;
+}
+section#corpo {
+    width: 1000px;
+    display: block;
+
+}
+section#corporecado {
+    width: 1500px;
+}
+article#mensagemprabb img {
+    box-shadow: 0 0 15px rgba(0,0,0,.5);
+
+}
+div#esquerda {
+    width: 1000px;
+    background-color: rgba(255,255,255,.4);
+    box-shadow: 0 0 15px rgba(0,0,0,.5);
+    padding: 3px 3px 3px 3px;
+
+}
+div#esquerdarecado {
+    width: 1500px;
+    background-color: rgba(255,255,255,0.8);
+    box-shadow: 0 0 10px rgba(0,0,0,.5);
+    padding: 3px 3px 3px 3px;
+}
+div#esquerdarecado h1 {
+    font-family: ShadowsIntoLight-Regular, sans-serif;
+    font-size: 24pt;
+    text-align: center;
+}
+div#esquerdarecado p{
+    font-family: JosefinSlab, sans-serif;
+    font-size: 19pt;
+    text-align: justify;
+    text-indent: 50px;
+    padding: 8px;
+}
+div#esquerdamomentos {
+    width: 1500px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0,0,0,.5);
+    padding: 3px 3px 3px 3px;
+
+}
+aside#lateral {
+    display: block;
+    width: 460px;
+    float: right;
+    background-color: rgba(255,255,255,.4);
+    margin: 0 0 auto auto;
+    box-shadow: 0 0 15px rgba(0,0,0,.8);
+    padding: 3px;
+
+}
+aside#lateral p {
+    font-family: JosefinSlab, sans-serif;
+    text-indent: 50px;
+    padding: 8px;
+    text-align: justify;
+    font-size: 16pt;
+}
+figure {
+    font-family: ShadowsIntoLight-Regular, sans-serif;
+    font-weight: bold;
+    font-size: 14pt;
+    text-align: center;
+    text-indent: 0;
+}
+aside#lateral h1 {
+    font-family: ShadowsIntoLight-Regular, sans-serif;
+    text-align: center;
+    font-size: 20pt;
+}
+footer a {
+    font-family: sans-serif;
+    font-size: 10pt;
+
+}
+.bloco {
+    width: 1450px;
+ /* border: 1px  black;       */
+    display: table;
+    margin: 25px auto 0 auto;
+    background-color: rgba(255,255,255,.5);
+    border-radius: 10px;
+
+
+}
+
+/*.recado{
+    font-family: JosefinSlab, sans-serif;
+    font-size: 16pt;
+    display: block;
+    text-indent: 50px;
+    text-align: justify;
+    width: 1100px;
+    padding: 15px;
+    margin: auto;
+
+}*/
+.recadodireita {
+    float: right;
+    margin: 15px 35px 0 0;
+    font-family: JosefinSlab, sans-serif;
+    font-size: 19pt;
+    display: block;
+    text-indent: 50px;
+    text-align: justify;
+    width: 1000px;
+    padding: 15px;
+
+}
+.recadoesquerda {
+    margin: 15px 0 0 20px;
+    float: left;
+    font-family: JosefinSlab, sans-serif;
+    font-size: 19pt;
+    display: block;
+    text-indent: 50px;
+    text-align: justify;
+    width: 1000px;
+    padding: 15px;
+
+
+}
+.bloco img{
+    border-radius: 8px;
+    display: block;
+    width: 350px;
+    float: left;
+    margin: 8px;
+}
+.bloco img.direita {
+    float: right;
+}
+.bloco img.esquerda {
+    float: left;
+}
+
+audio {
+    width: 460px;
+    height: 30px;
+}
+audio.recados{
+    width: 1500px;
+    height: 15px;
+    margin: 0;
+}
+.cantoinferiordireito {
+    text-align: right;
+    margin-right: 30px;
+    font-family: JosefinSlab, sans-serif;
+    font-size: 24pt;
+
+
+}
+.cantoinferioresquerdo {
+
+}
+#corpomomentos {
+    font-family: Amstagram, sans-serif;
+    font-weight: normal;
+    font-size: 90pt;
+    text-align: center;
+}
+
+section#corpomomentos p{
+    font-size: 24pt;
+    font-family: ShadowsIntoLight-Regular, sans-serif;
+    margin: 0;
+}
