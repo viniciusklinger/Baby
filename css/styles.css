@@ -1,15 +1,15 @@
 @charset "UTF-8";
 @font-face {
     font-family: 'Amstagram';
-    src: url("../_fonts/Amstagram.ttf");
+    src: url("../fonts/Amstagram.ttf");
 }
 @font-face {
     font-family: 'ShadowsIntoLight-Regular';
-    src: url("../_fonts/ShadowsIntoLight-Regular.ttf");
+    src: url("../fonts/ShadowsIntoLight-Regular.ttf");
 }
 @font-face {
     font-family: 'JosefinSlab';
-    src: url("../_fonts/JosefinSlab/JosefinSlab-Regular.ttf");
+    src: url("../fonts/JosefinSlab/JosefinSlab-Regular.ttf");
 }
 
 div#interface {
@@ -93,7 +93,7 @@ nav#menu h3 {
 }
 /* ===================================================================== cabeçalho*/
 body{
-    background-image: url("../_media/teste.gif");
+    background-image: url("../media/teste.gif");
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
